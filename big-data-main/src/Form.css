@@ -1,0 +1,98 @@
+/* Form.css */
+
+/* General styling for the form container */
+.form-container {
+    width: 100%;
+    max-width: 600px; /* Increased width to make it bigger */
+    margin: auto;
+    padding: 60px; /* Increased padding for more space inside */
+    background-color: #fff; /* White background for the form */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1); /* Larger shadow for more contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Make the title larger and centered */
+  h2 {
+    text-align: center;
+    margin-bottom: 40px; /* Increased bottom margin for more space */
+    color: #333;
+    font-size: 32px; /* Much larger font size for the heading */
+    font-weight: bold;
+  }
+  
+  /* Form input styling */
+  .input-group {
+    margin-bottom: 30px; /* Increased bottom margin for better spacing between inputs */
+  }
+  
+  .input-group label {
+    font-size: 18px; /* Larger label font size */
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger input fields */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px; /* Larger font size for input fields */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus {
+    border-color: #0066ff;
+    outline: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 18px; /* Larger button padding */
+    margin-top: 25px; /* Increased top margin for better spacing */
+    background-color: #0066ff;
+    color: white;
+    font-size: 20px; /* Bigger font size for the button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0052cc;
+  }
+  
+  /* Optional: Additional styles for forms toggle button */
+  .form-toggle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white; /* White background for form container */
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #0066ff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-btn:hover {
+    color: #0052cc;
+  }
+  
+  /* Add smooth transitions for focus states */
+  input, button {
+    transition: all 0.3s ease-in-out;
+  }
+  
